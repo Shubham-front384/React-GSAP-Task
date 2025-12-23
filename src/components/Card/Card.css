@@ -1,0 +1,47 @@
+.card-info {
+  border-radius: 20px;
+  width: max-content;
+  padding: 1rem;
+}
+
+.card-heading {
+  line-height: 1.563rem;
+}
+
+.card-heading span:nth-child(1) {
+  display: block;
+  font-size: 2.5rem;
+  text-transform: uppercase;
+  font-weight: 500;
+}
+
+.card-heading span:nth-child(2) {
+  text-transform: capitalize;
+  font-weight: 400;
+  padding-left: 1px;
+}
+
+.card-img {
+  width: 204px;
+  height: 204px;
+}
+
+.card-details {
+  display: flex;
+  align-items: center;
+  gap: .2rem;
+}
+
+.card-details img {
+  width: 28px;
+  height: 28px;
+}
+
+.card-details .logo-name {
+  line-height: .813rem;
+  font-weight: 500;
+}
+
+.card-details .logo-name span:nth-child(1) {
+  display: block;
+}
